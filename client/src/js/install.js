@@ -1,8 +1,8 @@
 const installBtn = document.getElementById('installBtn');
 
 window.addEventListener('beforeinstallprompt', (event) => {
-  event.preventDefault();
-  installBtn.style.visibility = 'visible';
+  window.deferredPrompt = event;
+  butInstall.classList.toggle('hidden', false);
 });
 
 butInstall.addEventListener('click', async () => {
