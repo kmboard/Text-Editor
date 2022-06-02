@@ -40,4 +40,9 @@ THEN I should have proper build scripts for a webpack application
 
 ## Deploye Links
 https://github.com/kmboard/Text-Editor
+https://text-editor-97.herokuapp.com/
 
+## Images
+![alt text](/Text-Editor/Assets/01-manifest.png)
+![alt text](/Text-Editor/Assets/02-service-worker.png)
+![alt text](/Text-Editor/Assets/03-idb-storage.png)
